@@ -1,0 +1,1 @@
+export default function Page(){return <article className="mx-auto max-w-xl py-8"><h1 className="text-3xl font-bold">Terms of Use</h1><p className="mt-6 leading-7 text-slate-300">Do not use VANI for illegal threats, harassment, fraud, spam, exploitation or disclosure of private information. Content may be removed and access may be restricted for violations.</p></article>}
