@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server";const A=["Silent","Mystic","Desi","Cosmic","Hidden","Calm","Neon","Swift"];const N=["Yogi","Falcon","Tiger","Lotus","Chai","Monk","Nomad","Rider"];export async function GET(){const nickname=A[Math.floor(Math.random()*A.length)]+N[Math.floor(Math.random()*N.length)]+"_"+Math.floor(100+Math.random()*900);return NextResponse.json({nickname})}
