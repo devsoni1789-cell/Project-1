@@ -1,0 +1,1 @@
+export default function Terms(){return <div className="max-w-3xl mx-auto px-4 py-10"><h1 className="text-3xl font-bold">Terms of Use</h1><p className="text-gray-300 mt-5">Do not use VANI for illegal threats, harassment, fraud, spam, exploitation or disclosure of private information. Content may be removed and sessions may be restricted.</p></div>}
