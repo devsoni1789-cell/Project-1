@@ -1,0 +1,1 @@
+"use client";import {io,Socket} from "socket.io-client";let s:Socket|null=null;export function socket(){if(!s)s=io();return s}
