@@ -1,0 +1,1 @@
+const m=new Map<string,number[]>();export function checkRateLimit(id:string,max:number,windowMs:number){const now=Date.now(),a=(m.get(id)||[]).filter(t=>now-t<windowMs);if(a.length>=max)return false;a.push(now);m.set(id,a);return true}
